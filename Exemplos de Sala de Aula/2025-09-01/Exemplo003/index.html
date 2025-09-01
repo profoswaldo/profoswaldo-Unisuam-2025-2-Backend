@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login (sem sessão)</title>
+</head>
+<body>
+  <h2>Login (sem sessão)</h2>
+
+  <form action="autentica.php" method="post">
+    <label>E-mail:
+      <input type="email" name="email" required>
+    </label>
+    <br><br>
+    <label>Senha:
+      <input type="password" name="senha" required>
+    </label>
+    <br><br>
+    <button type="submit">Entrar</button>
+  </form>
+
+  <p style="max-width: 600px;">
+    <strong>Objetivo didático:</strong> este exemplo <em>não</em> usa sessão.
+    Mesmo que o login “passe”, a próxima página <u>não saberá</u> quem é o usuário.
+  </p>
+</body>
+</html>
